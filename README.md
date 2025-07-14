@@ -63,6 +63,8 @@ Usage:
 
 ### Important Notes
 
+- Run commands from within the project's root directory (Embroidery_Gesture_Recognition_XL)
+
 - During inference the model recieves and analyses matrices of the form (1,126), this has been implemented in inference.py already.
 
 - norm_stats.pt contains the mean and std used during training and has been applied to input matrices just prior to inference, if adapting the algorithm please retain this normalisation for accurate model performance.
