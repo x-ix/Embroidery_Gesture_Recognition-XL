@@ -1,0 +1,18 @@
+--index-url https://download.pytorch.org/whl/cu118
+torch==2.0.1 
+torchvision==0.15.2
+torchaudio==2.0.2
+
+--extra-index-url https://pypi.org/simple
+mediapipe==0.10.21
+numpy==1.26.4
+opencv-python==4.11.0.86
+pandas==2.1.4
+matplotlib==3.10.3
+seaborn==0.13.2
+scikit-learn==1.7.0
+scipy==1.15.3
+transformers==4.53.1
+tqdm==4.67.1
+wandb==0.20.1
+pytorch-lamb==1.0.0
