@@ -697,7 +697,7 @@ def main():
                     print(f"  Running K-Fold with {opt_name}...")
 
                     for i in range(k):
-                        run = init_wandb()
+                        run = wandb.init(mode="disabled")
 
                         ff_mult = config["d_model"] * 4
 
