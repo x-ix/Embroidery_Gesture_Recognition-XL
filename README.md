@@ -11,7 +11,7 @@ Inference is structured to simulate dual-camera video streams and can be adapted
 
 1. Clone this repo:
 ```bash
-git clone https://github.com/x-ix/Embroidery_Gesture_Recognition-XL.git
+git clone https://github.com/x-ix/Embroidery_Gesture_Recognition_XL.git
 ```
 2. Install dependencies (please refer to [requirements.txt](requirements.txt)):
 ```bash
