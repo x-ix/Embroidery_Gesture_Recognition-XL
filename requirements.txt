@@ -16,3 +16,4 @@ transformers==4.53.1
 tqdm==4.67.1
 wandb==0.20.1
 pytorch-lamb==1.0.0
+pyarrow == 20.0.0
