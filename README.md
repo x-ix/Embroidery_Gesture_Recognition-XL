@@ -21,37 +21,42 @@ pip install -r requirements.txt
 ### Usage
 ```
 Usage:
-        python inference.py - You can run this straight away to see performance with the included pre-trained model, 
-                              this file has been configured to assist with integration into a larger application
-                              thus has not been optimised for individual execution, that being said if testing model
-                              performance on other video data is desired, simply change the input paths and execute
+        python inference.py - You can run this straight away to see performance with the included
+                              pre-trained model, this file has been configured to assist with
+                              integration into a larger application thus has not been optimised
+                              for individual execution, that being said if testing model performance
+                              on other video data is desired, simply change the input paths and
+                              execute.
 
 
 
-        Dataset has already been included but if you would like to recreate it anyway follow the execution order below:
+        Dataset has already been included but if you would like to recreate it anyway follow
+        the execution order below:
 
                 python constructor.py - Downloads and upacks required video data (2.3gb)
 
 
-                python landmarks.py - Extracting Hand Landmarks, also provides annotated output for visual clarity
-                                      which can be toggled off in the switches
+                python landmarks.py - Extracting Hand Landmarks, also provides annotated output
+                                      for visual clarity which can be toggled off in the switches
 
 
-                python dataset.py - Manipulates data and constructs into final dataset, also conducts some
-                                    basic exploration
+                python dataset.py - Manipulates data and constructs into final dataset, also
+                                    conducts some basic exploration
 
 
-                python dataset_analysis.py - Optional, exploratory data analysis, go back and forth between this
-                                             and altering dataset.py if applying your own changes to the dataset's
-                                             constructors or just to see what the data is like.
+                python dataset_analysis.py - Optional, exploratory data analysis, go back and
+                                             forth between this and altering dataset.py if
+                                             applying your own changes to the dataset's constructors
+                                             or just to see what the data is like.
 
 
 
-        python train.py - Training script, hyperparameters can be changed at the top, remember to reflect
-                          hyperparameter changes in inference.py. If seeking to tune hyperparameters set
-                          HPTUNING to True which will activate k-fold cross validation and disable model
-                          output. Optimiser testing can also be activated by setting both HPTUNING and
-                          OTUNING to True. If these are false, regular training and saving will occur.
+        python train.py - Training script, hyperparameters can be changed at the top, remember to
+                          reflect hyperparameter changes in inference.py. If seeking to tune
+                          hyperparameters set HPTUNING to True which will activate k-fold cross
+                          validation and disable model output. Optimiser testing can also be
+                          activated by setting both HPTUNING and OTUNING to True. If these are false,
+                          regular training and saving will occur.
 
 ```
 
