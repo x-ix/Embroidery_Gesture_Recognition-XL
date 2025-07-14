@@ -55,8 +55,8 @@ Usage:
                           reflect hyperparameter changes in inference.py. If seeking to tune
                           hyperparameters set HPTUNING to True which will activate k-fold cross
                           validation and disable model output. Optimiser testing can also be
-                          activated by setting both HPTUNING and OTUNING to True. If these are false,
-                          regular training and saving will occur.
+                          activated by setting both HPTUNING and OTUNING to True. If these are
+                          false, regular training and saving will occur.
 
 ```
 
