@@ -33,7 +33,7 @@ Usage:
         Dataset has already been included but if you would like to recreate it anyway follow
         the execution order below:
 
-                python constructor.py - Downloads and upacks required video data (2.4gb)
+                python constructor.py - Downloads and upacks required video data (2.3gb)
 
 
                 python landmarks.py - Extracting Hand Landmarks, also provides annotated output
